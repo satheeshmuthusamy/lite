@@ -1,0 +1,401 @@
+body{
+    margin: auto;
+    background-color: #FFBF00;
+    /* background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); */
+    font-family: cursive;
+    
+}
+#header{
+    width:100%;
+    height:600px;
+    border:2px solid yellow;
+    text-align:center; 
+    background-color:white;
+    color:white;
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/09/01/02/mandalas-1084082_960_720.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 600px;
+
+}
+#header>url{
+width: 100%;
+height: 100%;
+}
+#top{
+    font-size:45px;
+    width: 40%;
+    color:white;
+    animation:effect 10s infinite;
+    margin-left: 31%;
+}
+/* #indflix:animation{
+    animation:effect 10s infinite;
+} */
+@keyframes effect{
+    0%{background: black}
+    25%{background: red}
+    50%{background: blue}
+    75%{background: greenyellow}
+    100%{background: teal}
+}
+#account{
+    width: 8%;
+    height: 40px;
+    font-size: 25px;
+    border: 2px solid none;
+    float: left;
+    margin-top: -12%;
+    margin-left: 91%;
+}
+#language{
+    margin-left: 53%;
+    margin-top: -8%;
+}
+#intro{
+    width:80%;
+    height:100px;
+    border:2px solid none;
+    margin-top: 7%;
+    margin-left: 9%;
+    
+}
+#gmail{
+    width:70%;
+    height:60px;
+    border:2px solid none;
+    margin-top: 3%;
+    margin-left: 15%;
+    
+}
+#go{
+font-size: 30px;
+}
+#no{
+    font-size: 30px;
+}
+button{
+    font-size:18px;
+    margin-top: 1%;
+    margin-left: 21%;
+    
+}
+button:hover{
+    background-color:greenyellow;
+}
+#back{
+   margin-left: 46%; 
+}
+/* content css */
+.content{
+    width:100%;
+    height:900px;
+    border:2px solid none;
+    }
+    #heading1{
+        height:30px;
+        width:50%;
+        border:2px solid none;
+        text-align: center;
+        font-size:25px;
+        margin-left:25%;
+        background-color:teal;
+        color:whitesmoke;
+        /* margin-top: 5px; */
+    }
+    #content1{
+        width:40%;
+        height:400px;
+        border:2px solid none;
+        float:left;
+        margin-top:2%;
+        margin-left:4%;
+        }
+        #content2{
+            width:40%;
+            height:400px;
+            border:2px solid none;
+            float:right;
+            margin-top:2%;
+            margin-right:4%;
+            }
+            
+            #content3{
+                width:40%;
+                height:400px;
+                border:2px solid none;
+                float:left;
+                margin-top:2%;
+                margin-left:4%;
+                }
+                #content4{
+                    width:40%;
+                    height:400px;
+                    border:2px solid none;
+                    float:right;
+                    margin-top:2%;
+                    margin-right:4%;
+                    }
+#div{
+    width:100%;
+    height:8%;
+    border:2px solid black;
+    background-color:black;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    border-top: 2%;
+    border-radius: 16px;
+}
+#log1{
+    width:45%;
+    height:35%;
+    border:2px solid none;
+    float:left;
+    margin-left:3%;
+    margin-top:3%;
+}
+#log1>img{
+    width:100%;
+    height:100%;
+}
+#log1:hover{
+    
+}
+#log2{
+    width:45%;
+    height:35%;
+    border:2px solid none;
+    float:left;
+    margin-left:3%;
+    margin-top:3%;
+}
+#log2>img{
+    width:100%;
+    height:100%;
+}
+#log3{
+    width:45%;
+    height:35%;
+    border:2px solid none;
+    float:left;
+    margin-left:3%;
+    margin-top:3%;
+}
+#log3>img{
+    width:100%;
+    height:100%;
+}
+#log4{
+    width:45%;
+    height:35%;
+    border:2px solid none;
+    float:left;
+    margin-left:3%;
+    margin-top:3%;
+    
+}
+#log4>img{
+    width:100%;
+    height:100%;
+}
+/* device css */
+#device{
+    height:450px;
+    width:100%;
+    border:2px solid none;
+    margin-top:2%;
+}
+#heading2{
+    height:40px;
+    width:60%;
+    font-size:30px;
+    border:2px solid none; 
+    text-align:center;
+    background-color:black;
+    margin-left:20%;
+    color:white;
+}
+#device1{
+    width:30%;
+    height:300px;
+    border:2px solid none;
+    margin-top:3%;
+    margin-left:3%;
+    float: left;
+}
+#device2{
+    width:30%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:3%;
+    float: left;
+}
+#device3{
+    width:30%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:3%;
+    float: left;
+}
+/* #device4{
+    width:21%;
+    height:300px;
+    border:2px solid black;
+    margin-top:3%;
+    margin-left:3%;
+    float: left;
+} */
+#device1>img{
+width:100%;
+height:100%;
+}
+#device2>img{
+    width:100%;
+    height:100%;
+    }
+    #device3>img{
+        width:100%;
+        height:100%;
+        }
+        /* #device4>img{
+            width:100%;
+            height:100%;
+            } */
+ #downloads{
+     width:100%;
+     height:400px;
+     /* border:2px solid black; */
+     margin-left:0%;
+ }
+ #tile1{
+     width:45%;
+     height:300px;
+     /* border:2px solid black; */
+     margin-top:2%;
+     margin-left:5%;
+     float:left;
+ }
+ #tile2{
+    width:45%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:2%;
+    float:left;
+ }
+ #tile2>img{
+     width:100%;
+     height:100%;
+ }    
+ #tile1>img{
+    width:100%;
+    height:100%;
+} 
+/* children css */
+#children{
+    width:100%;
+    height:770px;
+    /* border:2px solid black; */
+    margin-top:0%;
+    float:left;
+}
+#program1>img{
+    width:100%;
+    height:100%;
+} 
+#program1{
+    width:40%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:8%;
+    float: left;
+}
+#program1>img{
+    width:100%;
+    height:100%;
+} 
+#program2{
+    width:40%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:8%;
+    float: left;
+}
+#program2>img{
+    width:100%;
+    height:100%;
+} 
+#program3{
+    width:40%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:8%;
+    float: left;
+}
+#program3>img{
+    width:100%;
+    height:100%;
+} 
+#program4{
+    width:40%;
+    height:300px;
+    /* border:2px solid black; */
+    margin-top:3%;
+    margin-left:8%;
+    float: left;
+}
+#program4>img{
+    width:100%;
+    height:100%;
+} 
+/* subscription css */
+#subscription{
+    width:100%;
+    height:400px;
+    /* border:2px solid rgb(12, 185, 26); */
+    margin-top:5px;
+}
+#details{
+    width:90%;
+    height:50px;
+    /* border:2px solid black; */
+    margin-left:5%;
+    margin-top:4%;
+    text-align:center;
+    font-size:40px;
+}
+table{
+    text-align: center;
+    font-size:30px;
+    margin-top: 5%;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 5px;
+    margin-left:27%;
+    color:white;
+    background-color:black;
+    /* border:2px solid black; */
+    
+}
+th{
+    height:50px;
+}
+tr:hover{
+    background-color: rgb(236, 220, 189);
+}
+/* about us css */
+#aboutus{
+    /* border:2px solid red; */
+    height:300px;
+    width:100%;
+    margin-top:4%;
+}
+p{
+    font-size:30px;
+}
+
